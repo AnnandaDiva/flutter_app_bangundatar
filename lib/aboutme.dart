@@ -10,7 +10,7 @@ class Aboutme extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.teal,
+          backgroundColor: Colors.indigo,
           leading: IconButton(
             icon: const Icon(Icons.arrow_back),
             onPressed: () {
@@ -71,7 +71,7 @@ class ProfileName extends StatelessWidget {
       child: Text(
         'PUTU ANNANDA DIVA SANJAYA',
         style: TextStyle(
-          color: Colors.teal,
+          color: Colors.indigo,
           fontSize: 20,
         ),
       ),
@@ -110,7 +110,7 @@ class RowCardOne extends StatelessWidget {
                   Icon(
                     Icons.school,
                     size: 50,
-                    color: Colors.tealAccent,
+                    color: Colors.indigo,
                   ),
                   Text(
                     'Undiksha',
@@ -132,7 +132,7 @@ class RowCardOne extends StatelessWidget {
                   Icon(
                     Icons.location_city,
                     size: 50,
-                    color: Colors.tealAccent,
+                    color: Colors.indigo,
                   ),
                   Text(
                     'Singaraja',
@@ -164,7 +164,7 @@ class RowCardTwo extends StatelessWidget {
                   Icon(
                     Icons.games,
                     size: 50,
-                    color: Colors.tealAccent,
+                    color: Colors.indigo,
                   ),
                   Text(
                     'Gaming',
@@ -186,7 +186,7 @@ class RowCardTwo extends StatelessWidget {
                   Icon(
                     Icons.music_note,
                     size: 50,
-                    color: Colors.tealAccent,
+                    color: Colors.indigo,
                   ),
                   Text(
                     'Music',

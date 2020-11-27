@@ -5,7 +5,6 @@ import 'package:flutter_app_bangundatar/landingpage.dart';
 import 'package:flutter_app_bangundatar/aboutme.dart';
 import 'package:flutter_app_bangundatar/persegi.dart';
 import 'package:flutter_app_bangundatar/segitiga.dart';
-
 void main(){
   runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
@@ -13,7 +12,8 @@ void main(){
       primarySwatch: Colors.indigo,
     ),
     home: new SplashScreen(),
-    routes: <String, WidgetBuilder>{
+    routes:
+ <String, WidgetBuilder>{
       '/landingpage' : (BuildContext context) => new LandingPage(),
       '/aboutme' : (BuildContext context) => new Aboutme(),
       '/persegi' : (BuildContext context) => new Persegi(),
